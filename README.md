@@ -24,6 +24,7 @@ In Blender, go to Edit > Preferences > Addons, then click "Install" in the top r
 
 NOTE: If you are on Blender 4.2 or above, the install button is found by clicking the arrow in the top right of the addon menu.
 ![3](https://github.com/user-attachments/assets/cc3d238c-ed34-497c-8634-bba55ba2ed9e)
+
 Navigate to the downloaded zip file for this addon and click "Install Addon". The addon should then be usable.
 
 ## FAQ / Troubleshooting
