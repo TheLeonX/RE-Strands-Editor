@@ -50,4 +50,4 @@ This hair strands were used mostly for short hair and itsnt recommended to use f
 At this moment we can't make rigged meshes cuz of unsupposed blend shapes, so if you want to modify beard - do not edit Luis face, uncheck "Create .sbd file" flag and modify only existing hair (brush them, make them longer and etc). This will save color, rigging and your nerves on trying to fix that issue. As soon as it will be figured out, I will drop an update for it!
 
 
-For additional help, go here:
+For additional info, check this [Wiki](https://github.com/TheLeonX/RE-Strands-Editor/wiki) 
