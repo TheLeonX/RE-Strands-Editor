@@ -1,5 +1,5 @@
 ###### BETA RELEASE, MIGHT HAVE BUGS
-![logo](https://github.com/user-attachments/assets/61bf6246-9d20-46e0-83ba-8454bbf5468b)
+![logo](https://github.com/user-attachments/assets/aa453e20-4519-40c2-8847-607dba3da598)
 
 This addon allows for importing and exporting of Resident evil 4 Remake hair strands files natively in Blender.
 ## [Download RE Strands Editor](https://github.com/TheLeonX/RE-Strands-Editor/releases/latest)
