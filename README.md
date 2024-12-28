@@ -52,3 +52,4 @@ At this moment we can't make rigged meshes cuz of unsupposed blend shapes, so if
 
 
 For additional info, check this [Wiki](https://github.com/TheLeonX/RE-Strands-Editor/wiki) 
+If you want to support me, here is my **[Boosty](https://boosty.to/theleonx/donate)**.
