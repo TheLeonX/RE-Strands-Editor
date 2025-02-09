@@ -14,9 +14,14 @@ This addon allows for importing and exporting of Resident evil 4 Remake hair str
 
 ## Requirements
 - [Blender v4.2 or higher](https://www.blender.org/download/)
-- [RE Mesh Editor](https://github.com/NSACloud/RE-Mesh-Editor)
-> RE Mesh Editor is required for loading surface/scalp meshes for modifying hair strands.
+- [RE Mesh Editor (with blend Shapes)](https://github.com/user-attachments/files/18723656/RE-Mesh-Editor-main.zip)
+> RE Mesh Editor is required for loading surface/scalp meshes for modifying hair strands. This version will let you save blend shapes for scalp meshes so your hair strands can get attached properly. This is still experimental and blend shapes can work incorrect for regular meshes, but can work good with hair strands.
+- [RszTool](https://github.com/czastack/RszTool)
+> RszTool is required for editing .pfb.17 hair strands files which contain a lot of settings such as collision, shader settings and physics.
 
+## Credits
+- [NSA Cloud](https://github.com/NSACloud) - RE Mesh Editor
+- [czastack](https://github.com/czastack) - RszTool
 ## Installation
 Download the addon from the "Download RE Strands Editor" link at the top or click Code > Download Zip.
 
@@ -30,25 +35,20 @@ Navigate to the downloaded zip file for this addon and click "Install Addon". Th
 ## FAQ / Troubleshooting
 - Hair strands doesn't get attached to head.
   
-This issue coming from .sbd.7 file, if you are creating hair strands from scratch, its highly recommend to check "Create .sbd file" flag on export. This is still experimental addon and will require fixes in future. At this moment .sbd files generating using surface UV map and using one of the values which worked great in game.
-
+That issue coming from .sbd.7 file, if you are creating hair strands from scratch, its highly recommend to check "Create .sbd file" flag on export.
 
 - Hair disappear when I trying to make hair strands for fully new character model.
 
   
-This issue coming from blend shapes which RE Mesh Editor doesn't support yet. Blend Shapes get erased on export.
+That issue coming from blend shapes which RE Mesh Editor doesn't support yet. Blend Shapes get erased on export.
+I made experimental build which can create blend shapes for hair strands. Addon is made originally by [NSA Cloud](https://github.com/NSACloud/RE-Mesh-Editor)
 
+Experimental Build -> [RE-Mesh-Editor-main.zip](https://github.com/user-attachments/files/18723656/RE-Mesh-Editor-main.zip)
 
-- I enabled physics but my long hair strands still looks static.
+- My hair looks different, doesn't have proper color or looks scaled if I enable physics for it.
 
-  
-This hair strands were used mostly for short hair and itsnt recommended to use for long hair. For long hair we would need to create new surface/scalp with rigged hair, but we can't do this at this moment, cuz RE Mesh Editor doesn't support blend shapes.
-
-
-- I tried to change beard for Luis but it looks static and changed colors.
-
-
-At this moment we can't make rigged meshes cuz of unsupposed blend shapes, so if you want to modify beard - do not edit Luis face, uncheck "Create .sbd file" flag and modify only existing hair (brush them, make them longer and etc). This will save color, rigging and your nerves on trying to fix that issue. As soon as it will be figured out, I will drop an update for it!
+That issue can be fixed by editing .pfb.17 files for hair strands. You will need for that [RszTool](https://github.com/czastack/RszTool).
+This file contain a lot of settings, such as collisions, physics and some other settings.
 
 
 For additional info, check this [Wiki](https://github.com/TheLeonX/RE-Strands-Editor/wiki) 
